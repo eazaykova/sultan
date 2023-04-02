@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/sultan/static/css/main.8f4c024a.css",
+    "main.js": "/sultan/static/js/main.4685a3ee.js",
+    "static/media/logo.svg": "/sultan/static/media/logo.83e9ab904a2d17061b068eee3644a1db.svg",
+    "static/media/logoW.svg": "/sultan/static/media/logoW.5a33f4ec3a162ac5d7a176fba25049c5.svg",
+    "static/media/mastercard.svg": "/sultan/static/media/mastercard.6a5de8bb6aefba7f6ef00f561bc6c753.svg",
+    "static/media/whatsapp.svg": "/sultan/static/media/whatsapp.db4fdea63d5ac10f8039908e900cc30f.svg",
+    "static/media/basket.svg": "/sultan/static/media/basket.5511e0f24aba33a330a534e01795be8d.svg",
+    "static/media/basket-main.svg": "/sultan/static/media/basket-main.7e3f10a67cbf7efab90673a8b0ccf897.svg",
+    "static/media/pen.svg": "/sultan/static/media/pen.4ad0292dda5962f1e37b2a9fdd00208f.svg",
+    "static/media/delete.svg": "/sultan/static/media/delete.52dd0ca00a7578f6d0c562e69a5e8080.svg",
+    "static/media/visa.svg": "/sultan/static/media/visa.8c9ebb98c046f18258aa1c222132a7bc.svg",
+    "static/media/share.svg": "/sultan/static/media/share.c7ea557134a8977c1abbf2213e507dea.svg",
+    "static/media/close.svg": "/sultan/static/media/close.ba6fc45b1c4861388bc548a5aac3811e.svg",
+    "static/media/closeW.svg": "/sultan/static/media/closeW.9d8ecdac955135c995069543252f8a8d.svg",
+    "static/media/mail.svg": "/sultan/static/media/mail.3340915fd443967adca6bd4a1fe514ba.svg",
+    "static/media/g.svg": "/sultan/static/media/g.07fd134522fb3fcf6585c16e00793281.svg",
+    "static/media/ml.svg": "/sultan/static/media/ml.4dcb2f7b2fce5e4998ce83687d126773.svg",
+    "static/media/telegram.svg": "/sultan/static/media/telegram.0d745bf701c94cad216ef589ad6a2277.svg",
+    "static/media/location.svg": "/sultan/static/media/location.d148b8d8689c3530f152b2dfc5c6dcb9.svg",
+    "static/media/catalog.svg": "/sultan/static/media/catalog.4756189f8fb2f4cdf0b38c581c7033d8.svg",
+    "index.html": "/sultan/index.html",
+    "static/media/search.svg": "/sultan/static/media/search.ea9ef697bfe0d73dc61f4d8bcff567cc.svg",
+    "static/media/like.svg": "/sultan/static/media/like.37f3bc180890ba89fe771c62d8d15901.svg",
+    "static/media/menu.svg": "/sultan/static/media/menu.093eea7d000932b68c4c3bea46f17de4.svg",
+    "static/media/download-dark.svg": "/sultan/static/media/download-dark.11d3238f37bdb4da06fd293c2ccf77e4.svg",
+    "static/media/download.svg": "/sultan/static/media/download.476856fdec10adf0adbb18ec14cf3121.svg",
+    "static/media/previous.svg": "/sultan/static/media/previous.8009929457bde0328f8f182170fd2c0f.svg",
+    "static/media/next.svg": "/sultan/static/media/next.93ba4abe5846a231d455ec0417dd0a4b.svg",
+    "static/media/subscribe.svg": "/sultan/static/media/subscribe.35ab94e2f8817f324bd31c2293385fa8.svg",
+    "static/media/reveal.svg": "/sultan/static/media/reveal.260e242d67fc23d29ab014c3406116d8.svg",
+    "static/media/select.svg": "/sultan/static/media/select.260e242d67fc23d29ab0.svg",
+    "static/media/hide.svg": "/sultan/static/media/hide.5e5d30daddeae7614a94f9346edb1e23.svg",
+    "static/media/back.svg": "/sultan/static/media/back.5a3ebbf524233ddda3e33d65833a2922.svg",
+    "main.8f4c024a.css.map": "/sultan/static/css/main.8f4c024a.css.map",
+    "main.4685a3ee.js.map": "/sultan/static/js/main.4685a3ee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f4c024a.css",
+    "static/js/main.4685a3ee.js"
+  ]
+}
