@@ -1,4 +1,4 @@
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import AppRouter from './components/ui/AppRouter';
 import { basketSlice } from './store/reducers/BasketSlice';
 import { productsSlice } from './store/reducers/ProductsSlice';
@@ -16,9 +16,9 @@ function App() {
 	}, [dispatch, downloadFromLocalStorageToBasket, getProducts]);
 
 	return (
-		<BrowserRouter>
+		<HashRouter>
 			<AppRouter />
-		</BrowserRouter>
+		</HashRouter>
 	)
 }
 
