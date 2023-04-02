@@ -1,0 +1,45 @@
+.icon {
+	display: flex;
+	position: relative;
+	width: 40.41px;
+	height: 28.76px;
+}
+
+.circle {
+	width: 28px;
+   height: 28px;
+	-webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   border-radius: 50%;
+   background: #FFC85E;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #FFFFFF;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 17px;
+
+	border: 3px solid #FFFFFF;
+
+	position: absolute;
+	margin-top: -10px;
+	margin-left: 30px;
+}
+
+@media (max-width: 320px) {
+	.icon {
+		width: 21.96px;
+		height: 15.63px;
+	}
+	.circle {
+		width: 23px;
+		height: 23px;
+		font-size: 10px;
+		line-height: 12px;
+		margin-top: -13px;
+		margin-left: 15px;
+		padding-bottom: 1px;
+	}
+}

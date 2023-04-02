@@ -1,0 +1,56 @@
+.div, .divBig, .divM {
+	font-weight: 500;
+	line-height: 150%;
+	color: #3F4E65;
+	display: flex;
+	cursor: pointer;
+}
+
+.divBig, .divM {
+	align-items: center;
+}
+
+.div {
+	font-size: 12px;
+}
+
+.divBig {
+	font-size: 35px;	
+}
+
+.divM {
+	font-size: 16px;	
+}
+
+.div img{
+	margin-left: 5px;
+	align-items: center;
+}
+
+.divBig:hover {
+	-webkit-text-decoration: solid underline;
+	text-decoration:  solid underline;
+	-webkit-text-underline-position: under;
+	text-underline-position: under;
+}
+
+.divBig img, .divM img{
+	width: 10px;
+	height: 10px;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+.divM img{
+	width: 7px;
+	height: 7px;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+@media (max-width: 320px) { 
+	.divBig {
+		font-size: 25px;
+	}
+}
+

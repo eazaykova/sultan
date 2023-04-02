@@ -1,0 +1,30 @@
+.title, .titleL {
+	color: #111111;
+}
+
+.title {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 130%;
+}
+
+.titleL {
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 150%;
+	color: #111111;
+}
+
+.title span {
+	font-weight: 700;
+}
+
+.titleL span {
+	font-weight: 800;
+}
+
+@media (max-width: 320px) { 
+	.titleL, .titleL span {
+		font-size: 16px;
+	}
+}

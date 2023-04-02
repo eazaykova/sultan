@@ -1,0 +1,29 @@
+.select {
+	position: relative;
+	width: 110px;
+}
+
+.select select{
+	display: block;
+	width: 100%; 
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	font-family: inherit;
+	color: #444;
+	font-size: 16px;
+	line-height: 150%;
+	color: #3F4E65;
+	cursor: pointer;
+}
+
+.select:after {
+	content: url("../../../images/icon/select.svg");
+   position: absolute;
+   top: 0;
+	right: 0;
+	margin-top: 5px;
+   z-index: 1;
+	cursor: pointer;
+}
+

@@ -1,0 +1,20 @@
+.items {
+	display: flex;
+	align-items: center;
+	margin-bottom: 5px;
+}
+.items>input {
+	margin-right: 10px;
+}
+.items>span, .count {
+	line-height: 150%;
+	color: #3F4E65;
+}
+
+.items>span {
+	font-size: 14px;
+}
+
+.count {
+	font-size: 10px;
+}

@@ -1,0 +1,146 @@
+.body {
+	display: flex;
+	flex-direction: column;
+}
+
+.title>div {
+	display: flex;
+}
+.input {
+	background: #EDEDED;
+	border-radius: 36px;
+	width: 100%;
+	height: 59px;
+	padding: 13px 10px 13px 30px;
+
+	color: #5C6370;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 150%
+}
+
+.input:not(:last-child) {
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+
+.sizetypedesc {
+	display: flex;
+}
+
+.description{
+	background: #EDEDED;
+	border-radius: 36px;
+	width: 80%;
+	
+
+	font-size: 14px;
+	line-height: 150%;
+	color: #5C6370;
+
+	padding: 13px 10px 13px 30px;
+	resize: none;
+	margin-bottom: 20px;
+	margin-right: 10px;
+}
+
+.sizetype {
+	display: flex;
+	border-radius: 36px;
+	height: 59px;
+	background: #EDEDED;
+
+}
+
+.type, .select {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #EDEDED;
+	color: #5C6370;
+	border-radius: 36px;
+	padding: 10px;
+}
+
+.typeproducttitle {
+	font-size: 14px;
+	line-height: 150%;
+	color: #5C6370;
+}
+
+.typeitems {
+	display: grid;
+	grid-template-columns: repeat(6, auto);
+}
+
+.items {
+	display: flex;
+	align-items: center;
+	background: #EDEDED;
+	color: #5C6370;
+	border-radius: 36px;
+	padding: 13px 10px 13px 20px;
+	margin: 15px 10px 0px 0px;
+}
+
+.items>input {
+	margin-right: 10px;
+}
+
+.button {
+	margin: 15px 0px 0px 35px;
+}
+@media (max-width: 950px) { 
+	.typeitems {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+	}
+	.button {
+		margin: 20px 0px 0px 0px;
+	}
+}
+
+@media (max-width: 320px) { 
+	.title>div {
+		flex-direction: column;
+	}
+	.input {
+		margin-bottom: 10px;
+	}
+
+	.input:not(:last-child) {
+		margin-right: 0px;
+	}
+
+	.sizetypedesc {
+		flex-direction: column;
+	}
+
+	.description{
+		width: 100%;
+		margin-bottom: 10px;
+		margin-right: 0px;
+	}
+
+	.typeproducttitle {
+		display: flex;
+		margin-top: 10px;
+		justify-content: center;
+	}
+
+	.typeitems {
+		width: 290px;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.items {
+		font-size: 13px;
+		padding: 10px 10px 10px 15px;
+		margin: 10px 5px 0px 0px;
+	}
+
+	.button {
+		margin: 10px 0px 0px -3px;
+	}
+}

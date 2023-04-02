@@ -1,0 +1,49 @@
+.info, .infiR {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-right: 14px;
+	
+	color: #FFFFFF;
+}
+
+.infiR {
+	align-items: flex-end;
+}
+
+.infiR .number {
+	color: #111111;
+}
+
+.infiR .time,  .infiR .link {
+	color: #3F4E65;
+}
+
+.number {
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 150%;
+
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+.time {
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 150%;
+	
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+.link {
+	font-size: 10px;
+	line-height: 150%;
+	text-decoration-line: underline;
+	color: inherit;
+}
+
+.link:hover {
+	color: #FFC85E;
+}

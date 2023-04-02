@@ -1,0 +1,45 @@
+.bread {
+	height: 17px;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 120%;
+	color: #3F4E65;
+}
+
+.noactive {
+	opacity: 0.5;
+	display: inline-block;
+	
+}
+
+.noactive:not(:last-child) {
+	border-right: 1px dashed rgba(0, 0, 0, 0.3);
+	padding-right: 10px;
+}
+
+.noactive:not(:first-child) {
+	padding-left: 10px;
+}
+
+.active {
+	color: #3F4E65;
+	border-right: 1px dashed rgba(0, 0, 0, 0.1);
+	padding: 0px 10px;
+}
+
+.active:hover {
+	color: #FFC85E;
+}
+
+.short {
+	display: none;
+}
+
+@media (max-width: 320px) { 
+	.short {
+		display: block;
+	}
+	.bread {
+		display: none;
+	}
+}

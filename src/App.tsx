@@ -1,26 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter } from 'react-router-dom';
+import AppRouter from './components/ui/AppRouter';
+import { basketSlice } from './store/reducers/BasketSlice';
+import { productsSlice } from './store/reducers/ProductsSlice';
+import { useAppDispatch } from './hooks/redux';
+import { useEffect } from 'react';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	const { downloadFromLocalStorageToBasket } = basketSlice.actions;
+	const { getProducts } = productsSlice.actions;
+	const dispatch = useAppDispatch();
+
+	useEffect(() => {
+		dispatch(downloadFromLocalStorageToBasket());
+		dispatch(getProducts());
+	}, [dispatch, downloadFromLocalStorageToBasket, getProducts]);
+
+	return (
+		<BrowserRouter>
+			<AppRouter />
+		</BrowserRouter>
+	)
 }
 
 export default App;

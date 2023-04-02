@@ -1,0 +1,25 @@
+.imgG, .imgML {
+	height: 16px;
+	margin-right: 8px;
+}
+
+.imgG{
+	opacity: 70%;
+}
+
+.imgML {
+	opacity: 23%;
+}
+
+.span {
+	font-size: 12px;
+	line-height: 130%;
+
+	color: #3F4E65;
+
+	padding-top: 1px;
+}
+
+.span:not(:last-child) {
+	margin-right: 5px;
+}

@@ -1,0 +1,12 @@
+.reveal {
+	display: block;
+}
+
+.reveal:not(:last-child) {
+	margin-bottom: 5px;
+}
+
+.hide {
+	display: none;
+	
+}

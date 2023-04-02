@@ -1,0 +1,58 @@
+.inputfirst, .inputsecond, .inputthird {
+	position: relative;
+}
+
+.inputfirst {
+	width: 263px;
+}
+
+.inputsecond {
+	width: 282px;
+}
+
+.inputthird {
+	width: 238px;
+}
+
+.inputfirst .input, .inputthird .input {
+	background: #EDEDED;
+}
+
+.inputsecond .input {
+	background: #FFFFFF;
+}
+
+.input {
+	width: 100%;
+	height: 59px;
+	border-radius: 36px;
+
+	font-size: 12px;
+	line-height: 150%;
+	color: rgba(92, 99, 112, 0.6);
+	padding: 0 54px 0 20px;
+}
+
+.button {
+	position: absolute; 
+	top: 0;
+	right: 0px;
+	width: 39px;
+	height: 39px;
+	border-radius: 1000px;
+	background: #FFC85E;
+	margin: 10px;
+}
+
+.button:hover {
+	background: #ffc95eb2;
+}
+
+@media (max-width: 320px) { 
+	.inputsecond {
+		width: 100%;
+	}
+	.inputthird {
+		width: 100%;
+	}
+}

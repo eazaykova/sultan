@@ -1,0 +1,24 @@
+.pageCurrent, .page {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 35px;
+	height: 35px;
+
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 130%;
+
+	cursor: pointer;
+}
+
+.pageCurrent {
+	background: linear-gradient(90deg, rgba(255, 198, 80, 0.3) 0%, rgba(254, 202, 110, 0.3) 97.25%);
+	border-radius: 1000px;
+}
+
+.page:hover {
+	background: linear-gradient(90deg, rgba(255, 197, 80, 0.075) 0%, rgba(254, 201, 110, 0.103) 97.25%);
+	border-radius: 1000px;
+}

@@ -1,0 +1,20 @@
+.filterActive, .filter {
+	font-size: 14px;
+	line-height: 150%;
+	color: #3F4E65;
+
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 10px;
+	
+}
+
+.filterActive {
+	color: #FFC85E;
+}
+
+.filter {
+	color: #3F4E65;
+}
+

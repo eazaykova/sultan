@@ -1,0 +1,91 @@
+.container {
+	width: 326px;
+	height: auto;
+	padding-left: 23px;
+	padding-right: 21px;
+
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+
+	border-radius: 10px;
+	background: #FFFFFF;
+	box-shadow: 0px 14px 39px -11px rgba(0, 0, 0, 0.06);
+}
+
+.box {
+	max-width: 100%;
+	height: 240px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.box img {
+	max-width: 100%;
+	max-height: 100%;
+	margin-bottom: 5px;
+}
+
+.boxSize {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.body {
+	flex: 1 1 auto;
+	cursor: pointer;
+}
+
+.basic {
+	display: flex;
+	align-items: flex-end;
+	margin: 15px 0 29px;
+}
+
+.title {
+	margin-bottom: 20px;
+}
+
+.price {
+	margin-right: 40px;
+	align-self: center;
+}
+
+.modal {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.close {
+	display: flex;
+	align-self: flex-end;
+	margin: 30px 30px 0px 0px;
+	cursor: pointer;
+}
+
+.modalTitle {
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 120%;
+	color: #111111;
+
+	display: flex;
+	height: 300px;
+	text-align: center;
+	align-items: center;
+}
+
+@media (max-width: 320px) { 
+	.modalTitle {
+		font-size: 20px;
+		padding: 0px 20px;
+		height: 200px;
+	}
+	.container {
+		width: 310px;
+	}
+}
+
+
