@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductQuantity component ProductQuantity render 1`] = `
+<span
+  class="quantity"
+>
+  1
+</span>
+`;

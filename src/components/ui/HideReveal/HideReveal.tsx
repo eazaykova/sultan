@@ -30,12 +30,12 @@ const HideReveal = ({ title, text, product, childToParent }: HideRevealProps) =>
 
 	return (
 		<div className={styles.body}>
-			<div className={styles.hideorreveal} onClick={stateFun} >{title} <img src={icon} alt="Hide or reveal" /></div>
+			<div data-testid="hideorreveal-click" className={styles.hideorreveal} onClick={stateFun} >{title} <img src={icon} alt="Hide or reveal" /></div>
 			{
 				check && (
 					text
 						? <div className={styles.data}><span className={styles.text}>{text}</span></div>
-						: <div className={styles.data}>
+						: <div data-testid="hideorreveal-elem" className={styles.data}>
 							<div>
 								<StringForm str='Назначение:' value='Домашнее использование' />
 								<StringForm str='Тип:' value={typeProd.substring(2)} />

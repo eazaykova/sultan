@@ -1,7 +1,7 @@
 import { IBasket } from "../../models/IBasket";
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
 
-interface BasketState {
+export interface BasketState {
 	basket: IBasket[];
 	quantity: number;
 	fullprice: number;
@@ -82,5 +82,7 @@ export const basketSlice = createSlice({
 		}
 	}
 })
+
+export const { addToBasket, removeFromBasket, emptyBasket } = basketSlice.actions;
 
 export default basketSlice.reducer;

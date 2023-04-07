@@ -45,11 +45,13 @@ const ProductCard = () => {
 	let originallyСost = JSON.parse(window.localStorage.getItem("Cost") || '0');
 	let originallyValue = 1;
 
+
 	basket.filter(items => items.id === idParam).map(item => {
 		originallyСost = item.price;
 		originallyValue = item.value;
 		return item;
 	})
+
 
 	const [cost, setCost] = useState(originallyСost);
 	const [value, setValue] = useState(originallyValue);

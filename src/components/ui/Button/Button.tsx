@@ -11,7 +11,7 @@ interface ButtonProps {
 
 const Button = ({ classN, name, icon, alt, onClick, disabled }: ButtonProps) => {
 	return (
-		<button type='button' disabled={disabled} className={styles[classN]} onClick={onClick} > {name} <img src={icon} alt={alt} /> </button >
+		<button data-testid='btn-basket' type='button' disabled={disabled} className={styles[classN]} onClick={onClick} > {name} <img src={icon} alt={alt} /> </button >
 	)
 }
 

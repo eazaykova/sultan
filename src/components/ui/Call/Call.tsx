@@ -3,7 +3,6 @@ interface CallProps {
 	right?: boolean;
 }
 
-
 const Call = ({ right }: CallProps) => {
 	let classN = 'info';
 	right ? classN = 'infiR' : classN = 'info';

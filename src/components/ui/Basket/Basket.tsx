@@ -9,7 +9,7 @@ interface BasketProps {
 
 const Basket = ({ amount, total, onClick }: BasketProps) => {
 	return (
-		<div className={styles.basket} onClick={onClick}>
+		<div data-testid="basket-click" className={styles.basket} onClick={onClick}>
 			<BasketIcon amount={amount} />
 			<div className={styles.info}>
 				<span className={styles.title}>Корзина</span>

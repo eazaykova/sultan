@@ -8,6 +8,8 @@ import ProductShowEditing from "../../components/ui/ProductShowEditing/ProductSh
 import nextIcon from '../../images/icon/next.svg';
 import previousIcon from '../../images/icon/previous.svg';
 import Pagination from "../../components/ui/Pagination/Pagination";
+import { getPageCount } from '../scripts';
+
 
 
 const AdminPanel = () => {
@@ -41,10 +43,6 @@ const AdminPanel = () => {
 		return result;
 
 	}, [totalPages])
-
-	const getPageCount = (totalCount: number, limit: number) => {
-		return Math.ceil(totalCount / limit);
-	}
 
 	useMemo(() => {
 		let totalCount = products.length;

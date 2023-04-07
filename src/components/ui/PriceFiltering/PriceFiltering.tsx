@@ -31,11 +31,11 @@ const PriceFiltering = ({ flag, fromToPriceToParent, clearFlag }: PriceFiltering
 	return (
 		<div className={styles.filter}>
 			<div className={styles.filterPrice}>
-				<input className={styles.input} type="number" placeholder="0" onChange={handleFrom} min={0} value={from} />
+				<input data-testid="value-from" className={styles.input} type="number" placeholder="0" onChange={handleFrom} min={0} value={from} />
 				<span className={styles.dash}>-</span>
-				<input className={styles.input} type="number" placeholder="10 000" onChange={handleTo} min={0} value={to} />
+				<input data-testid="value-to" className={styles.input} type="number" placeholder="10 000" onChange={handleTo} min={0} value={to} />
 			</div>
-			<div className={styles.filtererorr}>
+			<div data-testid="value-erorr" className={styles.filtererorr}>
 				{Number(from) > Number(to) && <span className={styles.error}>! Цена «от» не может быть больше цены «до»</span>}
 				{(Number(from) < 0 || Number(to) < 0) && <span className={styles.error}>! Цена не может быть отрицательной</span>}
 			</div>

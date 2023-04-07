@@ -1,0 +1,358 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardProduct Creating a product card 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="container"
+      >
+        <div
+          class="body"
+        >
+          <div
+            class="box"
+          >
+            <img
+              alt="Косметическое мыло"
+              src="https://emksp.ru/files/d48/d48a4d60b53c2d6b818caaa764927893-fit-400x400.jpg"
+            />
+          </div>
+          <div
+            class="boxSize"
+          >
+            <div>
+              <img
+                alt="icon"
+                class="imgG"
+                src="g.svg"
+              />
+              <span
+                class="span"
+              >
+                540
+              </span>
+              <span
+                class="span"
+              >
+                г
+              </span>
+            </div>
+          </div>
+          <div
+            class="title"
+          >
+            <p
+              class="title"
+            >
+              <span>
+                PALMOLIVE
+              </span>
+               
+              Косметическое мыло
+            </p>
+          </div>
+          <div
+            class="string"
+          >
+            <p
+              class="string"
+            >
+              Штрихкод:
+              <span
+                class="value"
+              >
+                4604049097014
+              </span>
+            </p>
+            <p
+              class="string"
+            >
+              Производитель:
+              <span
+                class="value"
+              >
+                Colgate-Palmolive
+              </span>
+            </p>
+            <p
+              class="string"
+            >
+              Бренд:
+              <span
+                class="value"
+              >
+                PALMOLIVE
+              </span>
+            </p>
+            <p
+              class="string"
+            >
+              Тип:
+              <span
+                class="value"
+              >
+                 Уход за руками / Уход за телом
+              </span>
+            </p>
+          </div>
+        </div>
+        <div
+          class="basic"
+        >
+          <div
+            class="price"
+          >
+            <span
+              class="priceS"
+            >
+              488
+               ₸
+            </span>
+          </div>
+          <div>
+            <button
+              class="first"
+              data-testid="btn-basket"
+              type="button"
+            >
+               
+              В КОРЗИНУ
+               
+              <img
+                alt="Basket"
+                src="basket.svg"
+              />
+               
+            </button>
+          </div>
+        </div>
+        <div
+          class="modal"
+        >
+          <div
+            class="content"
+          >
+            <div
+              class="modal"
+            >
+              <div
+                class="close"
+              >
+                <img
+                  alt="Close"
+                  src="close.svg"
+                />
+              </div>
+              <div
+                class="modalTitle"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="container"
+    >
+      <div
+        class="body"
+      >
+        <div
+          class="box"
+        >
+          <img
+            alt="Косметическое мыло"
+            src="https://emksp.ru/files/d48/d48a4d60b53c2d6b818caaa764927893-fit-400x400.jpg"
+          />
+        </div>
+        <div
+          class="boxSize"
+        >
+          <div>
+            <img
+              alt="icon"
+              class="imgG"
+              src="g.svg"
+            />
+            <span
+              class="span"
+            >
+              540
+            </span>
+            <span
+              class="span"
+            >
+              г
+            </span>
+          </div>
+        </div>
+        <div
+          class="title"
+        >
+          <p
+            class="title"
+          >
+            <span>
+              PALMOLIVE
+            </span>
+             
+            Косметическое мыло
+          </p>
+        </div>
+        <div
+          class="string"
+        >
+          <p
+            class="string"
+          >
+            Штрихкод:
+            <span
+              class="value"
+            >
+              4604049097014
+            </span>
+          </p>
+          <p
+            class="string"
+          >
+            Производитель:
+            <span
+              class="value"
+            >
+              Colgate-Palmolive
+            </span>
+          </p>
+          <p
+            class="string"
+          >
+            Бренд:
+            <span
+              class="value"
+            >
+              PALMOLIVE
+            </span>
+          </p>
+          <p
+            class="string"
+          >
+            Тип:
+            <span
+              class="value"
+            >
+               Уход за руками / Уход за телом
+            </span>
+          </p>
+        </div>
+      </div>
+      <div
+        class="basic"
+      >
+        <div
+          class="price"
+        >
+          <span
+            class="priceS"
+          >
+            488
+             ₸
+          </span>
+        </div>
+        <div>
+          <button
+            class="first"
+            data-testid="btn-basket"
+            type="button"
+          >
+             
+            В КОРЗИНУ
+             
+            <img
+              alt="Basket"
+              src="basket.svg"
+            />
+             
+          </button>
+        </div>
+      </div>
+      <div
+        class="modal"
+      >
+        <div
+          class="content"
+        >
+          <div
+            class="modal"
+          >
+            <div
+              class="close"
+            >
+              <img
+                alt="Close"
+                src="close.svg"
+              />
+            </div>
+            <div
+              class="modalTitle"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
